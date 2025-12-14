@@ -35,7 +35,7 @@ export const Navbar = () => {
           href="#hero"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> PedroTech </span>{" "}
+            <span className="text-glow text-foreground"> AmirTech </span>{" "}
             Portfolio
           </span>
         </a>
@@ -71,7 +71,7 @@ export const Navbar = () => {
               ? "opacity-100 pointer-events-auto"
               : "opacity-0 pointer-events-none"
           )}
-        >
+          >
           <div className="flex flex-col space-y-8 text-xl">
             {navItems.map((item, key) => (
               <a
@@ -84,7 +84,9 @@ export const Navbar = () => {
               </a>
             ))}
           </div>
+
         </div>
+
       </div>
     </nav>
   );

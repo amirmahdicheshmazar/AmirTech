@@ -6,7 +6,7 @@ export const Footer = () => {
       {" "}
       <p className="text-sm text-muted-foreground">
         {" "}
-        &copy; {new Date().getFullYear()} Pedrotech.co. All rights reserved.
+        &copy; {new Date().getFullYear()} Thanks to <span className="font-bold text-blue-500" >Pedrotech</span> for the UI inspiration. © 2025 AmirTech Portfolio.
       </p>
       <a
         href="#hero"
